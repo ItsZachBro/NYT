@@ -1,0 +1,716 @@
+* {
+    box-sizing: border-box
+}
+body img{
+    object-fit: contain;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 0.001em;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  
+
+header{
+    height:23vh;
+    float:left;
+    width:100%;
+    clear:both;
+}
+
+.headerOne{
+    float:left;
+    height:30px;
+    width:100%;
+}
+.headerOne i{
+    float:left;
+    height:20px;
+    margin:10px 20px;
+    size:10px;
+}
+.headerOne ol{
+    float:left;
+    height:20px;
+    margin:10px 10px 0 640px;
+    size:10px;
+}
+.headerOne li{
+    display: inline-block;
+    list-style: none;
+}
+.headerOne a{
+    color:black;
+    text-decoration: none;
+    margin-right:15px;
+}
+.headerOne button{
+    float:right;
+    height:20px;
+    margin:10px;
+    size:10px;
+    background:slategray;
+}
+
+.headerTwo{
+    float:left;
+    
+    width:100%;
+    border-bottom: 2px solid lightgray;
+}
+.headerTwo1{
+    float:left;
+    height:0px;
+    width:30%;
+    margin:30px 10px;
+}
+.headerTwo1 span{
+    font-size:18px;
+    width:190px;
+    height:30px;
+    display:block;
+    margin:10px;
+}
+.headerTwo2{
+    float:left;
+    height:80px;
+    width:40%;
+    justify-content: center;
+}
+.headerTwo2 img{
+    float:left;
+   
+  
+}
+
+.headerThree{
+    float:left;
+    height:50px;
+    width:100%;
+}
+.headerThree ul{
+    display: inline-block;
+    justify-content:center;
+    width: 90%;
+    height:30px;
+    margin: 10px 78px;
+}
+.headerThree li{
+    display: inline-block;
+    list-style: none;
+    margin:5px 0;
+}
+.headerThree a{
+    text-decoration: none;
+    color:black;
+    margin:0 10px;
+    width:30px;
+    font-size: 16px;
+}
+
+
+p{
+    padding: 10px 10px 10px 10px;
+}
+
+h2{
+   padding-left: 10px;
+   font-size: 1em; 
+}
+
+.MoscowBattle h1{
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+.MoscowBattle p{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.firstsection {
+    width: 65%;
+    height: 729px;
+   
+    float: left;
+}
+.MoscowBattle>h1{
+    font-size: 1.2rem;
+}
+.leftcol{
+    width:30%;
+    height:100%;
+    float:left;
+}
+
+.MoscowBattle{
+    width: 100%;
+    height: 200px;
+   
+    overflow: scroll;
+}
+
+.RebuildUkraine{
+    width: 100%;
+    height: 225px;
+    border: 1px solid grey;
+    overflow: scroll;    
+}
+
+.DailyBriefing{
+    width: 100%;
+    height: 295px;
+    border: none;
+    overflow: scroll;  
+}
+
+.donbas{
+    width: 70%;
+    height:720px;
+    float: left;
+}
+
+.topbackpic{
+    width: 100%;
+    height:600px;
+    border: solid black .06em;
+    background-image:url("atitankartil.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: grey;
+}
+
+.lowersection{
+        width: 65%;
+        height: 604.5px;
+        float: left;
+}
+
+.lowcol{
+    width:30%;
+    height:100%;
+    float: left;
+}
+
+.chatbot{
+    width: 100%;
+    height: 285px;
+    overflow: scroll;    
+}
+
+.alive{
+    width: 100%;
+    height: 285px;
+    overflow: scroll;  
+}
+
+.pic_of_computer{
+    width: 70%;
+    height: 100%;
+    float:left;
+}
+
+
+.bningAiscreen{
+    width:100%;
+    height: 80%;
+    background-image:url("bingaisearch.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rightside{
+    height: 133.19px;
+    width: 35%;
+    border: 1px solid grey;
+    display: inline-block;
+}
+
+
+.hours{
+    width:100%;
+    height:540px;
+    border:solid gray 1px;
+    overflow:scroll;
+    
+}
+
+.madridpic{
+    width: 100%;
+    height:375px;
+    border: solid black .06em;
+    background-image:url("madrid\ fountain.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mini_part{
+    width:100%;
+    height:345px;
+    border:solid gray 1px;
+    float: left;
+}
+
+.resturant{
+    width:50%;
+    height:345px;
+    border:solid gray 1px; 
+    float:left;
+    overflow: scroll;  
+}
+
+.plant{
+    width:50%;
+    height:345px;
+    border:solid gray 1px; 
+    float:left;
+    overflow: scroll;
+}
+
+.greenpic{
+    width: 100%;
+    height:50%;
+    border: solid black .06em;
+    background-image:url("houseplant.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.critic{
+    width: 100%;
+    height:50%;
+    border: solid black .06em;
+    background-image:url("resturantcritic.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.opinion{
+    width:100%;
+    height:447px;
+
+    float: right;
+}
+
+.opinion h4{
+    font-size:.8em;
+}
+
+.opinion h2{
+    font-size:1rem ;
+}
+
+.Wicked{
+    width: 100%;
+    height: 178px;
+   
+}
+
+.leftsidewick{
+    width:80%;
+    float: left;
+    
+    
+
+}
+
+.charles{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:20%;
+    
+    float: left;
+}
+
+.charles>img{
+    width:100%;
+    float: right;
+}
+
+.Defense{
+    width:100%;
+    height: 22.5px;
+    border:  1px;
+    
+}
+
+.defContent{
+    float:left;
+    height:100px;
+}
+
+.Rowling>img{
+    background-size: contain;
+    height: 100px;
+    float:right;
+    width:20%;
+    justify-content: right;
+}
+
+.opinion h3{
+        font-size: .7em;
+    }
+
+span{
+    margin-left: 10px;
+}  
+
+body > section.lowersection > section.pic_of_computer > span{
+    margin-left: 0px;
+}
+
+body > header > section.header > section.headerThree.none240 > nav > ul{
+    margin:none
+}
+
+body > section.firstsection > section.donbas > section > h2 {
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+@media (min-width: 1700px) {
+  
+
+    body > header > section.header > section.headerTwo2 > img {
+    height: 100px;
+    }
+
+}
+
+
+@media (max-width: 600px){
+
+    .headerOne i{
+        display: none;
+    }
+
+    .headerOne ol {
+        margin: 10px 10px  50px;
+    }
+
+    .none600{
+        display: none;
+    }
+
+    .firstsection {
+        width: 65%;
+        height: 729px;
+       
+        float: left;
+    }
+    .MoscowBattle>h1{
+        font-size: 1.2rem;
+    }
+    .leftcol{
+        width:30%;
+        height:100%;
+        float:left;
+    }
+    
+    .MoscowBattle{
+        width: 100%;
+        height: 200px;
+        border: 1px solid grey;
+        overflow: scroll;
+    }
+    
+    .RebuildUkraine{
+        width: 100%;
+        height: 225px;
+        border: 1px solid grey;
+        overflow: scroll;
+          
+    }
+    
+    .DailyBriefing{
+        width: 100%;
+        height: 295px;
+        border: 1px solid grey;
+        overflow: scroll;  
+    }
+    
+    
+    .donbas{
+        width: 70%;
+        height:720px;
+        border: 1px solid grey;
+        float: left;
+    }
+    
+    .topbackpic{
+        width: 100%;
+        height:600px;
+        border: solid black .06em;
+        background-image:url("atitankartil.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        color: grey;
+      
+    }
+    
+    .lowersection{
+            width: 65%;
+            height: 604.5px;
+            border: 1px solid grey;
+            float: left;
+    }
+    
+    .lowcol{
+        width:30%;
+        height:100%;
+        float: left;
+    }
+    
+    .chatbot{
+        width: 100%;
+        height: 285px;
+        border: 1px solid grey;
+        overflow: scroll;    
+    }
+    
+    .alive{
+        width: 100%;
+        height: 285px;
+        border: 1px solid grey;
+        overflow: scroll;  
+    }
+    
+    .pic_of_computer{
+        width: 70%;
+        height: 100%;
+        border: .2em solid grey;
+        float:left;
+    }
+    
+    .bningAiscreen{
+        width:100%;
+        height: 80%;
+        background-image:url("bingaisearch.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .rightside{
+        height: 133.19px;
+        width: 35%;
+        border: 1px solid grey;
+        display: inline-block;
+    }
+    
+    
+    .hours{
+        width:100%;
+        height:540px;
+        border:solid gray 1px;
+        overflow:scroll;
+        
+    }
+    
+    .madridpic{
+        width: 100%;
+        height:375px;
+        border: solid black .06em;
+        background-image:url("madrid\ fountain.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .mini_part{
+        width:100%;
+        height:345px;
+        border:solid gray 1px;
+        float: left;
+    }
+    
+    .resturant{
+        width:50%;
+        height:345px;
+        border:solid gray 1px; 
+        float:left;
+        overflow: scroll;  
+    }
+    
+    .plant{
+        width:50%;
+        height:345px;
+        border:solid gray 1px; 
+        float:left;
+        overflow: scroll;
+    }
+    
+    .greenpic{
+        width: 100%;
+        height:50%;
+        border: solid black .06em;
+        background-image:url("houseplant.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .critic{
+        width: 100%;
+        height:50%;
+        border: solid black .06em;
+        background-image:url("resturantcritic.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    
+    .opinion{
+        width:100%;
+        height:447px;
+        border:solid gray 1px;
+        float: right;
+    }
+    
+    .opinion h4{
+        font-size:.8em;
+    }
+    
+    .opinion h2{
+        font-size:1rem ;
+    }
+    
+    .Wicked{
+        width: 100%;
+        height: 178px;
+       
+    }
+    
+    .leftsidewick{
+        width:80%;
+        float: left;
+        
+        
+    
+    }
+    
+    .charles>img{
+        display: none;
+    }
+    
+    .Defense{
+        width:100%;
+        height: 22.5px;
+        border:  1px;
+        
+    }
+    
+    .defContent{
+        float:left;
+        height:100px;
+    }
+    
+    .Rowling>img{
+       display: none;
+    }
+    
+    
+    .opinion h3{
+            font-size: .7em;
+        }    
+
+}
+@media (max-width:500px){
+    body > header > section.header > section.headerThree.none240 > nav > ul{
+       display: none;
+    }
+}
+
+
+
+@media (max-width: 850px){
+
+    body > header > section.header > section.headerThree.none240 > nav > ul{
+        margin-right: 0%;
+    }
+    .headerOne ol {
+        margin: 10px 10px 0 100px;
+    }
+    .rightside{
+        width: 100%;
+    }   
+    .lowersection{
+        width:100%
+    }
+
+    .firstsection{
+        width:100%;
+    }
+
+    .none850{
+        display:none;
+    }
+
+}
+
+@media (max-width: 240px){
+
+    .headerTwo2 img {
+        margin: 10px 0px;
+    }
+
+    .none240{
+        display: none;
+    }
+    .leftcol{
+        width:100%
+    }
+
+    .lowersection{
+        width:100%
+    }
+    body > section.rightside > section.hours > section{
+        display: none;
+    }
+
+    .pic_of_computer{
+        display: none;
+    }
+
+    body > section.firstsection > section.donbas > section{
+        display: none;
+    }
+     .lowcol{
+        width: 100%;
+     }
+    .rightside{
+        border:none;
+    }
+
+    .donbas{
+        border:none;
+    }
+    }
+
+    @media(max-width:1625px){
+        body > header > section.header > section.headerThree.none240 > nav > ul > li:nth-child(20){
+            display: none;
+        }
+    }
+    @media (max-width:900px){
+    body > header > section.header > section.headerThree.none240 > nav li{
+       visibility: hidden;
+    }
+    body > header > section.header > section.headerThree.none240 > nav > ul > li:nth-child(7){
+        display: none;
+    } 
+}
+    @media (max-width:400px){
+        body > header > section.headerOne > nav > ol > li:nth-child(5) > a{
+            display: none;
+        }
+    }
